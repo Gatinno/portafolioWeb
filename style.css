@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary: #18db86;
+    --segundary: white;
+    --segundary-light: rgb(173, 173, 173);
+    --dark1: #222222;
+    --dark2: #050505;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    /*start si las quiero alante  */
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar a {
+    font-size: 1.5rem;
+    padding: 10px;
+    text-decoration: none;
+    /*color: white;*/
+    margin: 20px;
+}
+
+.hero{
+    background-color: var(--dark2);
+}
