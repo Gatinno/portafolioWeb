@@ -90,3 +90,40 @@
     height: 200px;
     border-radius: 50%;
 }
+
+.square-text {
+    color: var(--segundary);
+    font-size: 2rem;
+    top: 380px;
+    z-index: 11;
+
+}
+
+.square-text-2 {
+    color: var(--segundary);
+    font-size: 1.2rem;
+    top: 418px;
+    z-index: 11;
+}
+
+.square-text-3 {
+    color: var(--segundary);
+    font-size: 1.3rem;
+    top: 485px;
+    z-index: 11;
+}
+
+.square-text-3 a {
+    color: var(--segundary);
+    text-decoration: none;
+}
+
+.contact-icon {
+    top: 450px;
+    z-index: 11;
+}
+
+.contact-icon img {
+    width: 40px;
+    margin: 0 10 px;
+}
