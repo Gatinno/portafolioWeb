@@ -6,10 +6,10 @@
 
 :root {
     --primary: #18db86;
-    --segundary: white;
-    --segundary-light: rgb(173, 173, 173);
-    --dark1: #222222;
-    --dark2: #050505;
+    --secondary: #fff;
+    --secondary-light: rgb(173, 173, 173);
+    --dark1: #222;
+    --dark2: #111;
 }
 
 .navbar {
@@ -61,28 +61,32 @@
     top: 70px;
 }
 
-.circle-trans {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    border: solid 30px rgb(0, 255, 204);
-    opacity: .3;
-    z-index: 20;
-    top: 90px;
-}
-
-.circle {
-    width: 240px;
-    height: 240px;
-    border-radius: 50%;
-    border: solid 15px rgb(0, 255, 204);
-    z-index: 21;
-    top: 120px;
-}
-
 .profile-img {
     top: 137px;
     z-index: 20;
+}
+
+.profile-img::before {
+    content: '';
+    position: absolute;
+    width: 215px;
+    height: 215px;
+    top: -38px;
+    left: -38px;
+    border-radius: 50%;
+    border: solid 30px rgb(0, 255, 204);
+    opacity: .3;
+}
+
+.profile-img::after {
+    content: '';
+    position: absolute;
+    width: 202px;
+    height: 202px;
+    top: -16px;
+    left: -16px;
+    border-radius: 50%;
+    border: solid 15px rgb(0, 255, 204);
 }
 
 .profile-img img {
@@ -92,29 +96,29 @@
 }
 
 .square-text {
-    color: var(--segundary);
-    font-size: 2rem;
+    color: var(--secondary);
+    font-size: 1.5rem;
     top: 380px;
     z-index: 11;
 
 }
 
 .square-text-2 {
-    color: var(--segundary);
+    color: var(--secondary);
     font-size: 1.2rem;
     top: 418px;
     z-index: 11;
 }
 
 .square-text-3 {
-    color: var(--segundary);
+    color: var(--secondary);
     font-size: 1.3rem;
     top: 485px;
     z-index: 11;
 }
 
 .square-text-3 a {
-    color: var(--segundary);
+    color: var(--secondary);
     text-decoration: none;
 }
 
